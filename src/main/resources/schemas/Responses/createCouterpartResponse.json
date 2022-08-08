@@ -1,0 +1,21 @@
+{
+    "id": "4c2c5638-1854-4b16-a261-1ed3cb269661",
+    "name": "Ivan",
+    "type": "Supplier",
+    "created": "2022-06-23T19:40:19.876614",
+    "updated": "2022-06-23T19:40:19.876614",
+    "address_1": "236 Jayne",
+    "address_2": null,
+    "city": "Austin",
+    "state": "TX",
+    "zipcode": "78787",
+    "country": "USA",
+    "primary_contact_email": null,
+    "remit_email": null,
+    "primary_contact_name": null,
+    "primary_contact_phone": null,
+    "bank_account_number": null,
+    "bank_routing_number": null,
+    "payment_method": "PrintedCheck",
+    "internal_id": "49650"
+}

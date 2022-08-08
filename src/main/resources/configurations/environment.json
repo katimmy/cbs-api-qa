@@ -1,0 +1,20 @@
+{
+  "stack": {
+    "stage": {
+      "customerportal.url": "https://stage.portal.finexio.com/",
+      "adminportal.url": "https://stage.api.finexio.com/orlando/",
+      "customerportal.username": "Tester",
+      "customerportal.password": "AllWordsGood",
+      "adminportal.username": "sgtestt",
+      "adminportal.password": "T@t_ghdh@345",
+      "api.url": "https://stage.api.finexio.com",
+      "vms.api.url":"https://vms-api-stage-us.can-app-dev.cbs.com"
+
+
+    },
+    "preview": {
+      "customerportal.url": "https://prelive-portal.finexio.com/",
+      "adminportal.url": "https://prelive-api.finexio.com/orlando"
+    }
+}
+}

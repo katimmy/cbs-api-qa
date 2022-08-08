@@ -1,0 +1,35 @@
+{
+  "identifiers": {
+    "version":"V9",
+    "V9":{
+      "input": "//*[text()='{parameter}']/parent::*/following-sibling::*/..//*/input | //*[text()='{parameter}']/parent::*/following-sibling::*/..//*/textarea |//*[text()='{parameter}']/parent::*/following-sibling::*/input|//*[text()='{parameter}']/parent::*/following-sibling::td/div|//*[text()='{parameter}']/ancestor::td[1]/following-sibling::*[1]/*//input",
+      "checkbox": "//*[text()='{parameter}']/parent::label/following-sibling::div/..//*/input | //*[text()='{parameter}']/preceding-sibling::div/*//input | //*[text()='{parameter}']/parent::td/preceding-sibling::td/*//img|//*[contains(text(),'{parameter}')]/parent::*//input",
+      "searchIcon": "//*[text()='{parameter}']/parent::label/following-sibling::div/*/div[2] | //*[text()='{parameter}']/parent::td/following-sibling::td[1]/*//td[2]/div",
+      "yesOrNo": "//*[contains(text(),'{parameter}')]/parent::*/following-sibling::*/descendant::*/child::label[text()='{parameter2}']/preceding-sibling::input",
+      "isYesOrNoSelected": "//*[contains(text(),'{parameter}')]/parent::*/following-sibling::*/descendant::*/child::label[text()='{parameter2}']/ancestor::td[1]/div",
+      "fieldValue": "//*[text()='{parameter}']/parent::*/following-sibling::*/div",
+      "keyword": "//*[text()='{parameter}']",
+      "childInput": "//*[text()='{parameter}']/parent::*/following-sibling::*/*//label/span[text()='{parameter2}']/parent::label/following-sibling::div/*//input | //*[text()='{parameter}']/../../following-sibling::*/*//label[text()='{parameter2}']/parent::td/following-sibling::td/*//input | //*[text()='{parameter}']/ancestor::tr[1]/following-sibling::*[1]/*//*[text()='{parameter2}']/parent::label/following-sibling::div/*//input | //*[text()='{parameter}']/ancestor::tr[1]/following-sibling::*/*//*[text()='{parameter2}']/parent::td/following-sibling::td//input",
+      "pageLoaded": "//span[contains(@class,'g-title') and contains(text(),'{parameter}')]",
+      "radioButton": "//*[text()='{parameter}']/preceding-sibling::input | //*[text()='{parameter}']/../../../../preceding-sibling::div/*//input | //*[text()='{parameter}']/../../../../../../preceding-sibling::div/*//input",
+      "dropdownIcon": "//*[text()='{parameter}']/parent::label/following-sibling::div/*//img | //*[text()='{parameter}']/parent::td/following-sibling::td/*//img | //*[text()='{parameter}']/parent::td/following-sibling::td/*//td[2]/div",
+      "childDropDownIcon": "//*[text()='{parameter}']/../../following-sibling::*/*//label[text()='{parameter2}']/parent::td/following-sibling::td/*//img",
+      "topMenuTab": "//*[@id='TabBar:{parameter}Tab']",
+      "topMenuDropdown": "//a[@id='TabBar:{parameter}Tab']/span[@id='TabBar:{parameter}Tab-btnWrap']",
+      "addButton": "//*[text()='{parameter}']/ancestor::tr[1]/following-sibling::*[1]//*[text()='Add']|//*[text()='{parameter}']/ancestor::tr[1]/following-sibling::*[1]//*[text()='dd']",
+      "dropDownDefaultInput": "//*[contains(text(),'{parameter}')]/parent::*/following-sibling::*//input",
+      "errorMessage": "//*[contains(@class,'error_icon')]/parent::div",
+      "warningMessage": "//*[contains(@class,'warning_icon')]/parent::div",
+      "infoMessage": "//*[contains(@class,'info_icon')]/parent::div",
+      "isSelected": "//*[text()='{parameter}']/parent::*/div[1] | //*[text()='{parameter}']/parent::*/parent::div | //*[text()='{parameter}']/parent::*/parent::div/parent::div",
+      "pageTab": "//*[text()='{parameter}' and contains(@class,'x-tab-inner x-tab-inner')]",
+      "dropDownValues": "//*[contains(@id,'boundlist')]/div/ul/li",
+      "childFieldValue": "//*[text()='{parameter}']/parent::*/following-sibling::*/*//label/span[text()='{parameter2}']/parent::*/following-sibling::*/div",
+      "fieldEditable": "//*[text()='{parameter}']/parent::*/following-sibling::*/..//*/input | //*[text()='{parameter}']/parent::*/following-sibling::*/..//*/textarea |//*[text()='{parameter}']/parent::*/following-sibling::*/input|//*[text()='{parameter}']/ancestor::td/following-sibling::*[1]/*//input",
+      "ratingFieldValueByOperand": "//*[text()='{parameter}']/ancestor::td[1]/following-sibling::td[2]",
+      "ratingFieldValueByInstruction": "//*[text()='{parameter}']/ancestor::td[1]/following-sibling::td[1]",
+      "link": "//a[text()='{parameter}'] | //button[text()='{parameter}']",
+      "upload": "//*[text()='{parameter}']/parent::*/parent::*/following-sibling::input"
+    }
+  }
+}

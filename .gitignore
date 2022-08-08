@@ -1,0 +1,7 @@
+.classpath
+.factorypath
+.project
+allure-results/*
+allure-report/*
+.vscode
+target

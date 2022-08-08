@@ -1,0 +1,31 @@
+{
+    "id": "inv_zc1kg3b9vp4c3525w0q5",
+    "url": "https://api.finexio-stage.com/v1/invoices/inv_zc1kg3b9vp4c3525w0q5/",
+    "created": "2022-05-18T23:14:30.309245",
+    "updated": "2022-07-14T20:00:50.750160",
+    "amount_cents": 108,
+    "currency": "USD",
+    "discount_amount_cents": 0,
+    "invoice_date": "2022-05-18",
+    "invoice_due_date": null,
+    "invoice_number": "2915674!-6140201561784815236!-8805267870340808796!",
+    "note": "",
+    "originating_counterparty_id": "0545e588-d661-4548-95c7-f18875d1fc54",
+    "receiving_counterparty_id": "02eed17a-f12b-48c5-8b8e-b93aa161ade9",
+    "metadata": {},
+    "status": "complete",
+    "status_detail": {
+        "message": "Check payment cleared",
+        "trace_number": "007791"
+    },
+    "installments": [
+        {
+            "id": "inst_hcekh3596p9ct5662557",
+            "created": "2022-05-18T23:14:30.305609",
+            "amount_cents": 108,
+            "due_date": "2022-05-18",
+            "payment_id": "pmt_yc8kq37agi9w10km6urx"
+        }
+    ],
+    "payment_id": "pmt_yc8kq37agi9w10km6urx"
+}

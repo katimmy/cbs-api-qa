@@ -1,0 +1,35 @@
+{
+  "apiendpoints": {
+    "Counterparties": {
+      "CreateCounterparty": "/v1/counterparties/",
+      "UpdateCounterparty": "/v1/counterparties/",
+      "ListCounterparties": "/v1/counterparties",
+      "GetCounterpartydetails": "/v1/counterparties/",
+      "CounterPartiesHistory": "/v1/counterparties/History"
+    },
+    "Invoices": {
+      "ListInvoices": "/v1/invoices",
+      "GetInvoicedetails": "/v1/invoices/",
+      "CreateInvoiceBatch": "/v1/invoices/batch"
+    },
+    "Payments": {
+      "ListPayments": "/v1/payments",
+      "GetPaymentDetails": "/v1/payments/",
+      "GetPaymentsImage": "/v1/payments/"
+    },
+    "Webhooks": {
+      "ListSubscriptions": "/v1/Webhooks",
+      "CreateSubscription": "/v1/Webhooks",
+      "UpdateSubscription": "/v1/Webhooks",
+      "PatialSubscriptionUpdate": "/v1/Webhooks",
+      "GetSubscriptiondetails": "/v1/Webhooks/",
+      "DeleteSubscription": "/v1/Webhooks/"
+    },
+    "Leagues": {
+      "CreateLeague": "/api/v1/leagues",
+      "GetAllLeagues": "/api/v1/leagues",
+      "GetLeagueDetails": "/api/v1/leagues/",
+      "CreateInvoiceBatch": "/v1/invoices/batch"
+    }
+  }
+}
